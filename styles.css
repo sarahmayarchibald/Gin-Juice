@@ -16,6 +16,18 @@ html {
     background-color: #F0A4B0;
 }
 
+h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+h3 {
+    margin-bottom: 1rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -101,18 +113,6 @@ header {
     align-items: center;
     justify-content: center;
     color: #fff;
-}
-
-h1 {
-    font-family: 'Sansita Swashed', cursive;
-}
-
-h2 {
-    margin: 1rem 0;
-}
-
-h3 {
-    margin-bottom: 1rem;
 }
 
 .header-title p {
