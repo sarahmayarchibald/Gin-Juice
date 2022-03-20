@@ -24,7 +24,7 @@
             <li class="nav-list"><a href="#" class="nav-link">Home</a></li>
             <li class="nav-list"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-list"><a href="#reviews" class="nav-link">Reviews</a></li>
-            <li class="nav-list"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-list"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
 
@@ -122,34 +122,40 @@
         </section>
 
 <!-- Contacts -->
-<section class="contact">
+<section class="contact" id="contact">
     <div class="socials">
-        <div class="logo-socials">
-            <a href="https://en-gb.facebook.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-facebook"></i></a>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1677.8598176753542!2d-59.63762826235138!3d13.165939533465158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c43f08bbfc7634d%3A0x23e4e67888653e2!2sPaynes%20Bay%20Beach!5e1!3m2!1sen!2suk!4v1647772953675!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="logo-socials">
-            <a href="https://www.instagram.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-instagram"></i></a>
+        <div class="all-socials">
+            <div class="logo-socials">
+                <a href="https://en-gb.facebook.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="logo-socials">
+                <a href="https://www.instagram.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="logo-socials">
+                <a href="https://twitter.com/?lang=en" class="links-socials" target= "_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="logo-socials">
+                <a href="https://www.youtube.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
         </div>
-        <div class="logo-socials">
-            <a href="https://twitter.com/?lang=en" class="links-socials" target= "_blank"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-        <div class="logo-socials">
-            <a href="https://www.youtube.com/" class="links-socials" target= "_blank"><i class="fa-brands fa-youtube"></i></a>
-        </div>
+        
     </div>
 
     <div class="contact-form">
         <form action="">
-            <label for="fName">First Name</label>
+            <label for="fName">First Name:</label>
             <input type="text" name="fistname" id="fName" placeholder="Enter Text">
 
-            <label for="lName">Last Name</label>
+            <label for="lName">Last Name:</label>
             <input type="text" name="lastname" id="lName" placeholder="Enter Text">
 
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="email" name="email" id="email" placeholder="Enter Email">
 
-            <label for="country">Country</label>
+            <label for="country" class="drop-down">Country:</label>
             <select id="country" name="country" class="form-control">
                 <option disabled selected value> -- select a country -- </option>
                 <option value="Afghanistan">Afghanistan</option>
@@ -398,10 +404,10 @@
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+            <label for="subject">Message:</label>
+            <textarea id="subject" name="subject" placeholder="Your message" class="textarea-msg"></textarea>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit-btn">
         </form>
     </div>        
 </section>
